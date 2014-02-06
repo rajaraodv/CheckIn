@@ -6,6 +6,6 @@
 ## Error Handling
 The app also handles common errors like the one below:
   <img src="https://raw2.github.com/rajaraodv/CheckIn/master/pics/invalidEmailError.png"/ style='height:400px'>   #How to Run
-1. `git clone https://github.com/wadewegner/WordToMarkdown.git`
+1. `git clone https://github.com/rajaraodv/CheckIn.git`
 2. Open `CheckIn.xcodeproj` and run in `iOS7 iPad simulator`.
 3. Simply login to a developer org and see it in action.  ## Code walk through(coming soon)  	  
