@@ -57,7 +57,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-999" y="23"/>
+            <point key="canvasLocation" x="-967" y="403"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hdR-cj-TKU">
@@ -72,7 +72,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rHL-tr-Cbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1961" y="23"/>
+            <point key="canvasLocation" x="-1929" y="403"/>
         </scene>
         <!--Lookup View Controller-->
         <scene sceneID="hQl-wi-9mY">
@@ -150,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CWQ-gi-zmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-28" y="23"/>
+            <point key="canvasLocation" x="-4" y="403"/>
         </scene>
         <!--Registration View Controller-->
         <scene sceneID="wXU-x4-nbx">
@@ -255,11 +255,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7nx-ev-0gM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="957" y="1165"/>
+            <point key="canvasLocation" x="997" y="1177"/>
         </scene>
         <!--Member Details View Controller-->
         <scene sceneID="fB8-jw-STh">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jcO-b0-heb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xac-xe-mCY" customClass="MemberDetailsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9de-6K-ggf"/>
@@ -334,86 +335,8 @@
                         <outlet property="memberPic" destination="whV-a9-Tj9" id="h5d-lS-Z8p"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jcO-b0-heb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="957" y="23"/>
-        </scene>
-        <!--Member Details View Controller-->
-        <scene sceneID="M3e-qu-GDe">
-            <objects>
-                <viewController id="OpK-H3-Tuh" customClass="MemberDetailsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XDD-ML-rzU"/>
-                        <viewControllerLayoutGuide type="bottom" id="0VS-Te-ykL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="RSF-C7-4xQ">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Checked In!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWw-rO-8gH">
-                                <rect key="frame" x="169" y="342" width="430" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1931646652" green="1" blue="0.1159530161" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDP-eA-WZ7">
-                                <rect key="frame" x="234" y="551" width="300" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.023529414089999999" green="0.57647061349999995" blue="0.80392163989999998" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="38"/>
-                                <state key="normal" title="CHECK IN">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="checkinBtn:" destination="OpK-H3-Tuh" eventType="touchUpInside" id="1Am-QE-cNO"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Raja Rao DV" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odm-XN-rQa">
-                                <rect key="frame" x="350" y="418" width="353" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="38"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="raja@rao.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wir-rs-Bds">
-                                <rect key="frame" x="359" y="460" width="353" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user_nopic.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLe-Gd-oWL">
-                                <rect key="frame" x="234" y="409" width="108" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iT-B1-JUo">
-                                <rect key="frame" x="642" y="32" width="70" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="Cancel">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="cancelBtn:" destination="OpK-H3-Tuh" eventType="touchUpInside" id="JUD-tB-bLd"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0039215688589999999" green="0.23921570180000001" blue="0.34901961679999999" alpha="1" colorSpace="deviceRGB"/>
-                    </view>
-                    <connections>
-                        <outlet property="alertLabel" destination="HWw-rO-8gH" id="EsH-mJ-qRs"/>
-                        <outlet property="memberEmail" destination="wir-rs-Bds" id="lar-my-vDn"/>
-                        <outlet property="memberName" destination="odm-XN-rQa" id="xvU-FU-4qc"/>
-                        <outlet property="memberPic" destination="wLe-Gd-oWL" id="S9F-uP-sDa"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PlU-hB-wYq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="957" y="23"/>
+            <point key="canvasLocation" x="997" y="-329"/>
         </scene>
     </scenes>
     <resources>
