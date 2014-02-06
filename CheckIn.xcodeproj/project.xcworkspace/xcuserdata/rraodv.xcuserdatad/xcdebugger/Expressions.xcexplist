@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MemberDetailsViewController viewDidLoad]:MemberDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.member objectForKey:@&quot;Name&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignsViewController tableView:numberOfRowsInSection:]:CampaignsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.dataRows count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LookupViewController prepareForSegue:sender:]:LookupViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.member objectForKey:@&quot;Name&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignsViewController query:]:CampaignsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchString.length == 2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RegistrationViewController request:didLoadResponse:]:RegistrationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "@&quot;&quot; == nil">
+            </PersistentString>
+            <PersistentString
+               value = "[jsonResponse objectForKey:@&quot;id&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RegistrationViewController request:didFailLoadWithError:]:RegistrationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[error localizedDescription]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__48-[LookupViewController request:didLoadResponse:]_block_invoke54:LookupViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.member objectForKey:@&quot;Lead&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "jsonResponse">
+            </PersistentString>
+            <PersistentString
+               value = "[self.member objectForKey:@&quot;Contact&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RegistrationViewController checkInLeadWithId:]:RegistrationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.campaignId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
