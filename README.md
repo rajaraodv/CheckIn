@@ -17,25 +17,25 @@ This app uses XCode's storyboard that like below. Storyboards provides an easy w
 
 #How It Works
 
-1. The event organizer logs in to Salesforce using Native SDK's OAuth flow.
+Step 1. The event organizer logs in to Salesforce using Native SDK's OAuth flow.
 <p align='center'>
   <img src="https://raw2.github.com/rajaraodv/CheckIn/master/pics/oauthLogin.png"/ style='height:400px'> 
   
-2. Organizer is presented with a list of Campaigns. Organizer can also search for Campaigns.
+Step 2. Organizer is presented with a list of Campaigns. Organizer can also search for Campaigns.
 <p align='center'>
   <img src="https://raw2.github.com/rajaraodv/CheckIn/master/pics/campaignsList.png"/ style='height:400px'> 
   
-3. The app opens up "Look Up" screen as a modal **without back-button**. i.e. Users can search using their email but can't go back to step 2. Event organizers have to logout and re-login if they have to change campaigns.
+Step 3. The app opens up "Look Up" screen as a modal **without back-button**. i.e. Users can search using their email but can't go back to step 2. Event organizers have to logout and re-login if they have to change campaigns.
 
 <p align='center'>
   <img src="https://raw2.github.com/rajaraodv/CheckIn/master/pics/lookUp.png"/ style='height:400px'> 
   
-4. Attendees can self checkin. (Clicking **Cancel** will take them back to LookUp screen)
+Step 4. Attendees can self checkin. (Clicking **Cancel** will take them back to LookUp screen)
 
 <p align='center'>
   <img src="https://raw2.github.com/rajaraodv/CheckIn/master/pics/checkInSuccessful.png"/ style='height:400px'> 
   
-5. Registration - New attendees can click on Registrat button in **Look Up** view from step 3 and open up register and checkin screen. This creates them as **Leads**, associates them to the current event and changes their status to **Responded**
+Step 5. Registration - New attendees can click on Registrat button in **Look Up** view from step 3 and open up register and checkin screen. This creates them as **Leads**, associates them to the current event and changes their status to **Responded**
 
   <img src="https://raw2.github.com/rajaraodv/CheckIn/master/pics/registerAndCheckIn.png"/ style='height:400px'> 
   
